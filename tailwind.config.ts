@@ -13,7 +13,19 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        display: ['Playfair Display', 'Georgia', 'serif'],
+      },
       colors: {
+        status: {
+          read: "hsl(var(--status-read))",
+          "read-bg": "hsl(var(--status-read-bg))",
+          reading: "hsl(var(--status-reading))",
+          "reading-bg": "hsl(var(--status-reading-bg))",
+          want: "hsl(var(--status-want))",
+          "want-bg": "hsl(var(--status-want-bg))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
